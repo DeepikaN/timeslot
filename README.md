@@ -29,7 +29,7 @@ API platform for tetsing - Postman
     end_time = 2022-12-02 12:00
     total_capacity = 7
     
-    Sample Request - post(http://localhost:3000/api/v1/available_slots?start_time=2022-12-06 11:00:00&end_time=2022-12-06 12:00:00&total_capacity=6)   
+    Sample Request - post(http://localhost:3000/api/v1/available_slots?start_time=2022-12-06 11:00&end_time=2022-12-06 12:00&total_capacity=6)   
    
 ### How to run tests
 
