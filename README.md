@@ -30,8 +30,14 @@ API platform for tetsing - Postman
     total_capacity = 7
     
     Sample Request - post(http://localhost:3000/api/v1/available_slots?start_time=2022-12-06 11:00&end_time=2022-12-06 12:00&total_capacity=6)   
-   
-### How to run tests
+    
+### Screenshots of output
+Success Response -
+<img width="500" alt="Screenshot 2022-12-01 at 12 43 31 PM" src="https://user-images.githubusercontent.com/2619040/204989767-2c362306-4bc9-4ad5-ba4e-4fea185a662f.png">
+
+Failure Response - 
+<img width="500" alt="Screenshot 2022-12-01 at 12 46 33 PM" src="https://user-images.githubusercontent.com/2619040/204989938-2465e8fd-c2f7-47dc-93ec-33a113f7c05e.png">
+
 
 ### Thank you
 Thank you for giving me the opportunity to work on this assignment!!
