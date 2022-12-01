@@ -1,6 +1,6 @@
 ## REST API - to create time based slots
 
-It accepts start_time, end_time, and total_capacity parameters in payload and give response of avaliable slot collection.
+It accepts start_time, end_time, and total_capacity parameters in payload and gives response of available slot and slot capacity.
 
 
 * Ruby version - 3.0.0
@@ -11,7 +11,7 @@ It accepts start_time, end_time, and total_capacity parameters in payload and gi
 
 Database - PostgreSQL
 
-API platform for tetsing - Postman
+API platform for testing - Postman
 
 ### Setup
 
