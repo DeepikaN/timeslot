@@ -22,6 +22,7 @@ class Api::V1::SlotsApiController < ApplicationController
     params.permit(:start_time, :end_time, :total_capacity)
   end
 
+  # Validate the input fields and raise error if validation fails.
   def validate_params
     if params[:start_time].nil? || params[:start_time] < Time.now
       raise ApiException.new(101, "Start time: ")
